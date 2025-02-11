@@ -38,7 +38,7 @@ $cor-fundo-destaque: #ffff42;
             color: $cor-texto-descricao;
         }
 
-        &_em_destaque {
+        &--em--destaque {
             border: 2px solid $cor-destaque;
             padding: 8px;
             background-color: $cor-fundo-destaque;

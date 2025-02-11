@@ -29,7 +29,7 @@
 .produtos .produto__descricao {
   color: gray;
 }
-.produtos .produto_em_destaque {
+.produtos .produto--em--destaque {
   border: 2px solid gold;
   padding: 8px;
   background-color: #ffff42;
