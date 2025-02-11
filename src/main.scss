@@ -38,13 +38,13 @@ $cor-fundo-destaque: #ffff42;
             color: $cor-texto-descricao;
         }
 
-    }
-
-    .produto {
-        .em-destaque {
+        &_em_destaque {
             border: 2px solid $cor-destaque;
             padding: 8px;
             background-color: $cor-fundo-destaque;
         }
     }
+
+    
+    
 }
