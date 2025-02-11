@@ -17,19 +17,19 @@
   padding: 16px;
   margin: 8px;
 }
-.produtos .produto-imagem {
+.produtos .produto__imagem {
   width: 100%;
   height: 200px;
   background-color: #f0f0f0;
 }
-.produtos .produto-nome {
+.produtos .produto__nome {
   font-size: 1.2em;
   margin: 8px 0;
 }
-.produtos .produto-descricao {
+.produtos .produto__descricao {
   color: gray;
 }
-.produtos .em-destaque {
+.produtos .produto--em-destaque {
   border: 2px solid gold;
   padding: 8px;
   background-color: #ffff42;

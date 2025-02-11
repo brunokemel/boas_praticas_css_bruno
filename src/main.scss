@@ -23,25 +23,25 @@ $cor-fundo-destaque: #ffff42;
         padding: 16px;
         margin: 8px;
 
-        &-imagem {
+        &__imagem {
             width: 100%;
             height: 200px;
             background-color: $cor-fundo-produto;
         }
 
-        &-nome {
+        &__nome {
             font-size: 1.2em;
             margin: 8px 0;
         }
 
-        &-descricao {
+        &__descricao {
             color: $cor-texto-descricao;
         }
-    }
 
-    .em-destaque {
-        border: 2px solid $cor-destaque;
-        padding: 8px;
-        background-color: $cor-fundo-destaque;
+        &--em-destaque {
+            border: 2px solid $cor-destaque;
+            padding: 8px;
+            background-color: $cor-fundo-destaque;
+        }
     }
 }
